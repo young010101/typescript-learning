@@ -6,12 +6,12 @@ function greet(name: string): string {
 }
 
 // 基本类型注解
-const userName: string = "TypeScript";
+const helloUserName: string = "TypeScript";
 const age: number = 5;
 const isAwesome: boolean = true;
 
 // 调用函数
-console.log(greet(userName));
+console.log(greet(helloUserName));
 console.log(`TypeScript is ${age} years old and awesome: ${isAwesome}`);
 
 // 编译和运行:

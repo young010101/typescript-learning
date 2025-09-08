@@ -39,7 +39,7 @@ type StringArray = string[];
 type NumberList = Array<number>;
 
 const fruits: StringArray = ["apple", "banana", "orange"];
-const numbers: NumberList = [1, 2, 3, 4, 5];
+const aliasNumbers: NumberList = [1, 2, 3, 4, 5];
 
 // 5. 复杂嵌套类型别名
 type Address = {
@@ -67,10 +67,10 @@ const company: Company = {
 };
 
 // 6. 联合类型别名
-type Status = "pending" | "approved" | "rejected";
+type RequestStatus = "pending" | "approved" | "rejected";
 type ID = string | number;
 
-let currentStatus: Status = "pending";
+let currentStatus: RequestStatus = "pending";
 let itemId: ID = "item_123";
 
 console.log("类型别名示例:", {

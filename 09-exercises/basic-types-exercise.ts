@@ -13,12 +13,12 @@ let hobbies = ["reading", "swimming", "coding"];
 // 完成以下函数的类型注解
 
 // TODO: 添加参数和返回值类型
-function calculateArea(width, height) {
+function calculateArea(width: number, height: number): number {
     return width * height;
 }
 
 // TODO: 添加参数和返回值类型
-function greetStudent(name, age) {
+function greetStudent(name: string, age: number): string {
     return `Hello ${name}, you are ${age} years old`;
 }
 

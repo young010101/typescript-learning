@@ -1,7 +1,7 @@
 // 变量声明和类型注解
 
 // 1. 显式类型注解
-let userName: string = "Alice";
+let variableUserName: string = "Alice";
 let userAge: number = 30;
 let isActive: boolean = true;
 
@@ -20,7 +20,7 @@ let modernStyle: string = "推荐使用 let";
 const constantValue: string = "使用 const 声明常量";
 
 // 5. 数组声明
-let numbers: number[] = [1, 2, 3, 4, 5];
+let variableNumbers: number[] = [1, 2, 3, 4, 5];
 let names: Array<string> = ["Alice", "Bob", "Charlie"];
 
 // 6. 任意类型 (不推荐过度使用)
@@ -29,11 +29,11 @@ anything = 42;
 anything = true;
 
 console.log("变量示例:", {
-    userName,
+    variableUserName,
     userAge,
     isActive,
     cityName,
     population,
-    numbers,
+    variableNumbers,
     names
 });

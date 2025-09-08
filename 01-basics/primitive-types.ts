@@ -35,7 +35,7 @@ enum Color {
 let c: Color = Color.Green;
 
 // 手动设置枚举值
-enum Status {
+enum TaskStatus {
     Pending = 0,
     InProgress = 1,
     Completed = 2,
