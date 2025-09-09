@@ -12,6 +12,7 @@ const isAwesome: boolean = true;
 
 // 调用函数
 console.log(greet(helloUserName));
+console.log(greet("cyan"));
 console.log(`TypeScript is ${age} years old and awesome: ${isAwesome}`);
 
 // 编译和运行:
